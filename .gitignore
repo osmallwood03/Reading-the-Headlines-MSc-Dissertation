@@ -1,0 +1,44 @@
+# credentials — never commit
+guardian_key.txt
+*.key
+.env
+
+# licensed source data
+*.xlsx
+*.xls
+data/
+raw/
+cache/
+
+# pipeline outputs
+results_v2/
+results_v3/
+figures_v2/
+figures_v3/
+*.npy
+boot_count*.txt
+
+# the constructed index is the contribution and is kept
+!salience_index.csv
+!salience_index_exboe.csv
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# latex
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# os
+.DS_Store
+Thumbs.db
