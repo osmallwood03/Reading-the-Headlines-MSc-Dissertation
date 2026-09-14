@@ -89,7 +89,7 @@ python build_data_v3.py
 ```
 
 Estimation, in order. Block exogeneity changes the reduced form, so `soe` has
-to be settled before the scheme ladder means anything:
+to be settled before the scheme ladder actually means anything:
 
 ```
 python run_v3.py diagnostics
@@ -107,7 +107,7 @@ Seeds are fixed throughout.
 
 ## Data
 
-Not redistributed, for licensing reasons.
+Not redistributed.
 
 | Series | Source |
 | --- | --- |
