@@ -4,7 +4,7 @@ Code for *Reading the Headlines: Cost-of-Living Media Salience and the
 Household–Professional Inflation Expectations Gap in the UK* (MSc Economics
 dissertation, University of Warwick, 2026).
 
-Two halves. The first builds three series from primary sources: a signed index
+There are two halves in executing the code. The first builds three series from primary sources: a signed index
 of UK cost-of-living news coverage, de-censored moments of the Bank of England
 Inflation Attitudes Survey, and a constant-horizon professional forecast
 consensus. The second estimates a six-variable SVAR on those series, identified
